@@ -1,6 +1,6 @@
 {
   "type": "micro",
-  "wake_word": "Hey Tarz",
+  "wake_word": "hey tarz",
   "author": "Ramon Cardena",
   "model": "hey_tarz.tflite",
   "trained_languages": ["en"],
@@ -9,7 +9,7 @@
     "probability_cutoff": 0.5,
     "sliding_window_size": 10,
     "feature_step_size": 10,
-    "tensor_arena_size": 22860,
+    "tensor_arena_size": 30000,
     "minimum_esphome_version": "2024.7.0"
   }
 }
