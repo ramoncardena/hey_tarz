@@ -9,6 +9,7 @@
     "sliding_window_size": 10,
     "feature_step_size": 10,
     "tensor_arena_size": 22860,
-    "minimum_esphome_version": "2024.7.0"
+    "minimum_esphome_version": "2024.7.0",
+    "url": "https://raw.githubusercontent.com/ramoncardena/hey_tarz/main/hey_tarz.tflite"
   }
 }
