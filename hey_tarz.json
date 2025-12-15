@@ -1,6 +1,6 @@
 {
   "type": "micro",
-  "wake_word": "hey tarz",
+  "wake_word": "Hey Tarz",
   "author": "Ramon Cardena",
   "model": "hey_tarz.tflite",
   "trained_languages": ["en"],

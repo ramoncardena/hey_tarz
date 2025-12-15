@@ -92,3 +92,13 @@ If you retrain the ONNX model:
 3. Update the metadata JSON (especially arena size and cutoff) before deploying.
 
 Feel free to adapt the model or thresholds to match your acoustic environment and assistant stack.
+
+## Training Notebook
+The model was produced in this Colab notebook: [Hey Tarz wake-word training](https://colab.research.google.com/drive/1q1oe2zOyZp7UsB3jJiQ1IFn8z5YfjwEb?usp=sharing#scrollTo=qgaKWIY6WlJ1). It walks through:
+- collecting/curating positive and negative clips,
+- feature extraction with log-mel MFCCs,
+- training an ONNX model with a small CNN,
+- exporting to TFLite and quantizing for TensorFlow Lite Micro,
+- generating the `hey_tarz.json` metadata (arena sizing, cutoff, sliding window).
+
+Use the notebook as a template if you want to adapt the wake word to another phrase or language—swap the dataset, retrain, and drop the new artifacts back into this repo structure.
